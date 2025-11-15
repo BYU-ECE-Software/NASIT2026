@@ -1,0 +1,23 @@
+import Container from "@/components/Container";
+import PageHero from "@/components/PageHero";
+import SponsorLogo from "@/components/cards/SponsorLogo";
+import { sponsors } from "@/data/sponsors";
+
+export default function SponsorsPage() {
+  return (
+    <>
+      <PageHero
+        title="Sponsors"
+        subtitle="We thank our sponsors for their generous support"
+        image="/images/heroes/sponsors-hero.jpg"
+      />
+      <Container wide>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {sponsors.map((s) => (
+            <SponsorLogo key={s.id} sponsor={s} />
+          ))}
+        </div>
+      </Container>
+    </>
+  );
+}
