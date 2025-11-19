@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { NEXT_PUBLIC_BASE_PATH } from "@/next.config";
 
 export default function PageHero({
   title,
@@ -28,7 +29,7 @@ export default function PageHero({
       {/* Hero media */}
       <div className="relative w-full overflow-hidden" style={imageStyle}>
         <Image
-          src={image}
+          src={NEXT_PUBLIC_BASE_PATH + image}
           alt=""
           fill
           priority
