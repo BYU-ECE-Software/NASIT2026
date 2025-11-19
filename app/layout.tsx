@@ -3,6 +3,7 @@ import "@/app/globals.css";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { NEXT_PUBLIC_BASE_PATH } from "@/next.config";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,6 +11,9 @@ export const metadata: Metadata = {
   title: "NASIT 2026 at BYU",
   description: "NASIT 2026 at BYU",
   metadataBase: new URL("https://example.edu"),
+  icons: {
+    icon: NEXT_PUBLIC_BASE_PATH + "/images/favicon.ico",
+  },
 };
 
 export default function SiteLayout({

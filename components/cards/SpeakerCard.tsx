@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { Speaker } from "@/utils/types";
+import { NEXT_PUBLIC_BASE_PATH } from "@/next.config";
 
 export default function SpeakerCard({ speaker }: { speaker: Speaker }) {
   return (
     <article className="card card-hover p-4 md:p-6 grid grid-cols-1 sm:grid-cols-[140px,1fr] gap-4 items-start">
       <div className="relative h-40 w-full sm:h-[140px] sm:w-[140px] overflow-hidden rounded-xl bg-slate-100">
         <Image
-          src={speaker.image || "/images/placeholder-person.jpg"}
+          src={NEXT_PUBLIC_BASE_PATH + (speaker.image || "/images/placeholder-person.jpg")  }
           alt={speaker.name}
           fill
           className="object-cover"
