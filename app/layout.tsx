@@ -12,7 +12,10 @@ export const metadata: Metadata = {
   description: "NASIT 2026 at BYU",
   metadataBase: new URL("https://example.edu"),
   icons: {
-    icon: NEXT_PUBLIC_BASE_PATH + "/images/favicon.ico",
+    icon: {
+      url: NEXT_PUBLIC_BASE_PATH + "/images/favicon.ico",
+      href: NEXT_PUBLIC_BASE_PATH + "/images/favicon.ico",
+    }
   },
 };
 
