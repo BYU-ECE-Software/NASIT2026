@@ -18,6 +18,7 @@ export default function SponsorsPage() {
           ))}
         </div>
       </Container>
+      <br></br>
     </>
   );
 }

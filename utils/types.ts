@@ -32,7 +32,7 @@ export type ScheduleEvent = {
   title: string;
   speakers?: string[];
   location?: string;
-  variant?: "talk" | "keynote" | "workshop";
+  variant?: "Short Tutorial" | "Long Tutorial" | "Lunch and Posters" | "Lunch" | "Break" | "Excursion" | "Goodbye" | "Breakfast";
 };
 
 export type Poster = {
@@ -52,4 +52,9 @@ export type ThingToDo = {
   title: string;
   url?: string;
   note?: string;
+};
+
+export type FAQ = {
+  question: string;
+  answer: string;
 };

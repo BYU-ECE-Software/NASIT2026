@@ -23,8 +23,8 @@ export default function ProgramPage() {
             <h2 className="text-xl md:text-2xl font-semibold mb-4">Schedule</h2>
             <Calendar
               days={["Mon", "Tue", "Wed", "Thu", "Fri"]}
-              start="08:30"
-              end="18:00"
+              start="07:30"
+              end="20:00"
               stepMinutes={30}
               events={schedule}
             />
@@ -39,6 +39,7 @@ export default function ProgramPage() {
           </section>
         </div>
       </Container>
+      <br></br>
     </>
   );
 }

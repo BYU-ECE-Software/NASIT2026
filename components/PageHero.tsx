@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function PageHero({
   title,
   subtitle,
-  image = "/hero-default.jpg",
-  height = 400, // px or CSS string (e.g., '50vh')
+  image = "/images/heroes/hero-default.jpg",
+  height = "60vh", // px or CSS string (e.g., '50vh')
   fit = "cover", // 'cover' | 'contain'
   position = "center", // e.g., 'center top', 'center 20%'
   overlap = false, // set true to overlap the card onto the image

@@ -40,7 +40,7 @@ export const organizers: Organizer[] = [
     id: "o6",
     name: "Martina Cardone",
     affiliation: "University of Minnesota",
-    role: "Local Arrangements",
+    role: "Advisor",
     image: "/images/organizers/martina-cardone.jpg",
   },
   {
@@ -54,7 +54,7 @@ export const organizers: Organizer[] = [
     id: "o11",
     name: "Kerrie Mennear",
     affiliation: "Brigham Young University",
-    role: "Organizer",
+    role: "Local Arrangements",
     image: "/images/organizers/kerrie-mennear.jpg",
   },
   {

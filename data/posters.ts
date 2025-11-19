@@ -4,12 +4,12 @@ export const posters: Poster[] = [
   {
     id: "pt1",
     title: "Adaptive Caching in HPC",
-    authors: ["Q. Zhang", "L. Nguyen"],
+    authors: ["Roman Vish", "Willie Harrison"],
     pdf: "/pdf/posters/adaptive-caching.pdf",
   },
   {
     id: "pt2",
     title: "Edge Inference for Field Sensors",
-    authors: ["R. Gomez", "T. Brown"],
+    authors: ["Roman Vish", "Willie Harrison"],
   },
 ];

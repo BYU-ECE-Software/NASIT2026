@@ -19,6 +19,7 @@ export default function OrganizersPage() {
           ))}
         </div>
       </Container>
+      <br></br>
     </>
   );
 }

@@ -16,7 +16,7 @@ import { ScheduleEvent } from "@/utils/types";
 export default function Calendar({
   days = ["Mon", "Tue", "Wed", "Thu", "Fri"],
   start = "08:00",
-  end = "18:00",
+  end = "20:00",
   stepMinutes = 30,
   events = [],
 }: {
@@ -86,10 +86,12 @@ export default function Calendar({
                     key={e.id}
                     className={clsx(
                       "absolute left-2 right-2 rounded-lg border text-xs shadow-sm",
-                      e.variant === "workshop" && "bg-blue-50 border-blue-200",
-                      e.variant === "keynote" && "bg-amber-50 border-amber-200",
-                      (!e.variant || e.variant === "talk") &&
-                        "bg-emerald-50 border-emerald-200"
+                      e.variant === "Short Tutorial" && "bg-blue-50 border-blue-200",
+                      e.variant === "Long Tutorial" && "bg-amber-50 border-amber-200",
+                      (!e.variant || e.variant === "Lunch" || e.variant === "Breakfast" || e.variant === "Lunch and Posters") &&
+                        "bg-emerald-50 border-emerald-200",
+                      e.variant === "Excursion" && "bg-purple-50 border-purple-200",
+                      e.variant === "Break" && "bg-slate-50 border-slate-200"
                     )}
                     style={{ top, height }}
                     title={`${e.title} — ${e.start}–${e.end}`}
@@ -117,13 +119,13 @@ export default function Calendar({
       {/* Legend (optional) */}
       <div className="mt-4 flex flex-wrap gap-3 text-xs text-slate-600">
         <span className="inline-flex items-center gap-2">
-          <i className="h-3 w-3 rounded bg-emerald-200 inline-block" /> Talk
+          <i className="h-3 w-3 rounded bg-emerald-200 inline-block" /> Meal
         </span>
         <span className="inline-flex items-center gap-2">
-          <i className="h-3 w-3 rounded bg-amber-200 inline-block" /> Keynote
+          <i className="h-3 w-3 rounded bg-amber-200 inline-block" /> Long Tutorial
         </span>
         <span className="inline-flex items-center gap-2">
-          <i className="h-3 w-3 rounded bg-blue-200 inline-block" /> Workshop
+          <i className="h-3 w-3 rounded bg-blue-200 inline-block" /> Short Tutorial
         </span>
       </div>
     </div>

@@ -18,6 +18,7 @@ export default function PostersPage() {
           ))}
         </div>
       </Container>
+      <br></br>
     </>
   );
 }

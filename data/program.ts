@@ -3,8 +3,8 @@ import { Presentation } from "@/utils/types";
 export const presentations: Presentation[] = [
   {
     id: "p1",
-    title: "Opening Keynote: Systems for Science",
-    speakers: ["Dr. Alex Johnson"],
+    title: "Short Tutorial: How to build Conference Registration Website",
+    speakers: ["Roman Vish"],
     abstract:
       "An overview of systems research enabling rapid scientific discovery.",
     time: "Day 1 — 9:00–10:00",
@@ -13,9 +13,9 @@ export const presentations: Presentation[] = [
   },
   {
     id: "p2",
-    title: "ML Pipelines at Scale",
-    speakers: ["Priya Patel"],
+    title: "Long Tutorial: How to build an ML Pipeline for Baseball data",
+    speakers: ["Willie Harrison"],
     abstract: "Patterns for building resilient ML data pipelines.",
-    time: "Day 1 — 10:30–11:00",
+    time: "Day 1 — 10:30–12:30",
   },
 ];

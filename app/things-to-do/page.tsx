@@ -14,6 +14,7 @@ export default function ThingsToDoPage() {
       <Container>
         <ThingsToDoList items={thingsToDo} />
       </Container>
+      <br></br>
     </>
   );
 }
