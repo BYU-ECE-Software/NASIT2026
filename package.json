@@ -1,6 +1,7 @@
 {
   "name": "nasit2026",
   "version": "0.1.0",
+  "homepage": "https://byu-ece-software.github.io/NASIT2026/",
   "private": true,
   "scripts": {
     "dev": "next dev",
