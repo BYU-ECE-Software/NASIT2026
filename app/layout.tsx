@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://example.edu"),
   icons: {
     icon: {
-      url: NEXT_PUBLIC_BASE_PATH + "/images/favicon.png",
-      href: NEXT_PUBLIC_BASE_PATH + "/images/favicon.png",
+      url: NEXT_PUBLIC_BASE_PATH + "/images/favicon.svg",
+      href: NEXT_PUBLIC_BASE_PATH + "/images/favicon.svg",
     }
   },
 };
