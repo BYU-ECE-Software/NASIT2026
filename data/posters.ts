@@ -3,13 +3,13 @@ import { Poster } from "@/utils/types";
 export const posters: Poster[] = [
   {
     id: "pt1",
-    title: "Adaptive Caching in HPC",
-    authors: ["Roman Vish", "Willie Harrison"],
-    pdf: "/pdf/posters/adaptive-caching.pdf",
+    title: "Posters Coming Soon",
+    authors: [""],
+    // pdf: "/pdf/posters/adaptive-caching.pdf",
   },
-  {
-    id: "pt2",
-    title: "Edge Inference for Field Sensors",
-    authors: ["Roman Vish", "Willie Harrison"],
-  },
+  // {
+  //   id: "pt2",
+  //   title: "Edge Inference for Field Sensors",
+  //   authors: ["Roman Vish", "Willie Harrison"],
+  // },
 ];

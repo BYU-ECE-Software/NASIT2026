@@ -69,14 +69,14 @@ export const organizers: Organizer[] = [
     name: "Trevor Wai",
     affiliation: "Brigham Young University",
     role: "Poster Coordinator",
-    image: "/images/organizers/willie-harrison.jpg",
+    // image: "/images/organizers/willie-harrison.jpg",
   },
   {
     id: "o10",
     name: "Tyler Randall",
     affiliation: "Brigham Young University",
     role: "Poster Coordinator",
-    image: "/images/organizers/willie-harrison.jpg",
+    // image: "/images/organizers/willie-harrison.jpg",
   },
   
 ];
