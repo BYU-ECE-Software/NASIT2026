@@ -4,6 +4,7 @@ export type Speaker = {
   image?: string;
   affiliation?: string;
   bio?: string;
+  link?: string;
 };
 
 export type Organizer = {
@@ -12,6 +13,7 @@ export type Organizer = {
   affiliation?: string;
   role?: string;
   image?: string;
+  link?: string;
 };
 
 export type Presentation = {
@@ -46,6 +48,7 @@ export type Sponsor = {
   id: string;
   name: string;
   logo?: string; // image path
+  link?: string; // URL
 };
 
 export type ThingToDo = {

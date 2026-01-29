@@ -12,7 +12,8 @@ export const speakers: Speaker[] = [
   //   id: "s2",
   //   name: "Willie Harrison",
   //   affiliation: "Brigham Young University",
-  //   image: "/images/speakers/willie-harrison.jpg",
+  //   image: "/images/organizers/willie-harrison.jpg",
   //   bio: "Engineer building large-scale ML platforms for scientific computing.",
+  //   link: "https://ece.byu.edu",
   // },
 ];

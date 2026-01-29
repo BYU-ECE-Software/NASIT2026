@@ -227,7 +227,7 @@ export const schedule: ScheduleEvent[] = [
     dayIndex: 2,
     start: "15:00",
     end: "20:00",
-    title: "Excusion in Provo Canyon",
+    title: "Excursion in Provo Canyon",
     // speakers: ["Q. Zhang"],
     location: "Engineering Building Event Space (206)",
     variant: "Excursion",

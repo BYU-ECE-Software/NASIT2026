@@ -95,6 +95,15 @@ const FooterBar = () => {
               <FaLinkedin />
             </a>
           </div>
+          <br></br>
+          <a
+              href="mailto:willie.harrison@byu.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-white"
+            >
+              Email Organizer
+            </a>
         </div>
       </div>
 

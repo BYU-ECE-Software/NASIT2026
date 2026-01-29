@@ -8,9 +8,10 @@ import { NEXT_PUBLIC_BASE_PATH } from "@/next.config";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NASIT 2026 at BYU",
-  description: "NASIT 2026 at BYU",
-  metadataBase: new URL("https://example.edu"),
+  title: "NASIT 2026 Conference",
+  description:
+    "Join researchers, engineers, and students for talks, posters, and community at the North American School of Information Theory 2026 Conference.",
+  metadataBase: new URL("https://byu-ece-software.github.io/NASIT2026/"),
   icons: {
     icon: {
       url: NEXT_PUBLIC_BASE_PATH + "/favicon.svg",

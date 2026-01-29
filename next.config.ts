@@ -7,20 +7,20 @@ const repo = "NASIT2026";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  assetPrefix:`/${repo}/`,
-  basePath: `/${repo}`,
+  // assetPrefix:`/${repo}/`,
+  // basePath: `/${repo}`,
   images: {
     unoptimized: true,
   },
   trailingSlash: true,
   
   env: {
-    NEXT_PUBLIC_BASE_PATH: `/${repo}`,
+    NEXT_PUBLIC_BASE_PATH: "", //`/${repo}`,
   },
   
 };
 
-const NEXT_PUBLIC_BASE_PATH = `/${repo}`;
+const NEXT_PUBLIC_BASE_PATH = "";
 
 export { NEXT_PUBLIC_BASE_PATH };
 

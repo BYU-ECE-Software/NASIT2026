@@ -12,7 +12,7 @@ export default function SponsorsPage() {
         image="/images/heroes/sponsors-hero.jpg"
       />
       <Container wide>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {sponsors.map((s) => (
             <SponsorLogo key={s.id} sponsor={s} />
           ))}
