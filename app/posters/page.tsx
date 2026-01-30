@@ -10,7 +10,7 @@ export default function PostersPage() {
         title="Posters"
         // subtitle="Explore posters from presenters"
         image="/images/heroes/posters-hero.jpg"
-        heroText="2026 NASIT"
+        heroText="2026 North American School of Information Theory"
         heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
       <Container wide>

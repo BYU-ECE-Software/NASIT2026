@@ -12,7 +12,7 @@ export default function ProgramPage() {
         title="Program, Abstracts, Slides & Videos"
         subtitle="Explore the schedule and materials"
         image="/images/heroes/program-hero.webp"
-        heroText="2026 NASIT"
+        heroText="2026 North American School of Information Theory"
         heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
         // height={480}
         // position="center 30%"

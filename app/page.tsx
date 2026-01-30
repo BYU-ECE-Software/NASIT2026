@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import PageHero from "@/components/PageHero";
+import HomepageHero from "@/components/HomepageHero";
 import Section from "@/components/Section";
 
 export const metadata = {
@@ -11,15 +11,15 @@ export const metadata = {
 export default function HomePage() {
   return (
     <>
-      <PageHero
+      <HomepageHero
         title="North American School of Information Theory 2026 Conference"
         subtitle="Join researchers, engineers, and students for talks, posters, and community."
         image="/images/heroes/hero-default.jpg"
-        heroText="2026 NASIT"
+        heroText="2026 North American School of Information Theory"
         heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
       <Container wide>
-        <Section title="Welcome">
+        <Section title="">
           <p>
             The 2026 North American School of Information Theory (NASIT) will be held from <b> Monday, June 22nd to Friday, June 26th </b> at <b> Brigham Young University in Provo, UT, USA. </b> The school brings together graduate students and postdoctoral researchers for an immersive introduction to emerging research directions in information theory and its applications.
           </p>

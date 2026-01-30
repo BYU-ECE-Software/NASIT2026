@@ -12,7 +12,7 @@ export default function FAQsPage() {
         title="Frequently Asked Questions"
         subtitle="Quick answers about registration, venue, and logistics"
         image="/images/heroes/faqs-hero.webp"
-        heroText="2026 NASIT"
+        heroText="2026 North American School of Information Theory"
         heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
       <Container>

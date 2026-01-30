@@ -10,7 +10,7 @@ export default function OrganizersPage() {
         title="Organizers"
         subtitle="The team behind the conference"
         image="/images/heroes/organizers-hero.webp"
-        heroText="2026 NASIT"
+        heroText="2026 North American School of Information Theory"
         heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
 
