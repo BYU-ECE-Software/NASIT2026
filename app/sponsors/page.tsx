@@ -9,7 +9,9 @@ export default function SponsorsPage() {
       <PageHero
         title="Sponsors"
         subtitle="We thank our sponsors for their generous support"
-        image="/images/heroes/sponsors-hero.jpg"
+        image="/images/heroes/sponsors-hero.webp"
+        heroText="2026 NASIT"
+        heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
       <Container wide>
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">

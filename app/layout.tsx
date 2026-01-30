@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://byu-ece-software.github.io/NASIT2026/"),
   icons: {
     icon: {
-      url: NEXT_PUBLIC_BASE_PATH + "/favicon.svg",
-      href: NEXT_PUBLIC_BASE_PATH + "/favicon.svg",
+      url: NEXT_PUBLIC_BASE_PATH + "/favicon.ico",
+      href: NEXT_PUBLIC_BASE_PATH + "/favicon.ico",
     }
   },
 };

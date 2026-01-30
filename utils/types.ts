@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type Speaker = {
   id: string;
   name: string;
@@ -42,6 +44,7 @@ export type Poster = {
   title: string;
   authors: string[];
   pdf?: string; // URL
+  session?: string;
 };
 
 export type Sponsor = {
@@ -59,5 +62,5 @@ export type ThingToDo = {
 
 export type FAQ = {
   question: string;
-  answer: string;
+  answer: ReactNode;
 };

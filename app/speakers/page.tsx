@@ -9,7 +9,9 @@ export default function SpeakersPage() {
       <PageHero
         title="Speakers"
         subtitle="Meet our invited and featured speakers"
-        image="/images/heroes/speakers-hero.jpg"
+        image="/images/heroes/speakers-hero.webp"
+        heroText="2026 NASIT"
+        heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
       <Container wide>
         <div className="grid gap-4">

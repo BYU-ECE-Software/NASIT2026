@@ -15,6 +15,8 @@ export default function HomePage() {
         title="North American School of Information Theory 2026 Conference"
         subtitle="Join researchers, engineers, and students for talks, posters, and community."
         image="/images/heroes/hero-default.jpg"
+        heroText="2026 NASIT"
+        heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
       <Container wide>
         <Section title="Welcome">

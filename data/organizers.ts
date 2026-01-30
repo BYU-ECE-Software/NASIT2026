@@ -30,6 +30,13 @@ export const organizers: Organizer[] = [
     image: "/images/organizers/mingyue-ji.png",
   },
   {
+    id: "o12",
+    name: "Jamison Ebert",
+    affiliation: "Brigham Young University",
+    role: "Organizer",
+    image: "/images/organizers/jamison-ebert.jpg",
+  },
+  {
     id: "o5",
     name: "Lalitha Sankar",
     affiliation: "Arizona State University",

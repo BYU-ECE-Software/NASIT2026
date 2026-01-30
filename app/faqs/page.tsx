@@ -11,9 +11,9 @@ export default function FAQsPage() {
       <PageHero
         title="Frequently Asked Questions"
         subtitle="Quick answers about registration, venue, and logistics"
-        image="/images/heroes/faqs-hero.jpg"
-        height={380}
-        position="center 30%"
+        image="/images/heroes/faqs-hero.webp"
+        heroText="2026 NASIT"
+        heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
       <Container>
         <Accordion items={faqs} />

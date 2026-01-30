@@ -11,9 +11,11 @@ export default function ProgramPage() {
       <PageHero
         title="Program, Abstracts, Slides & Videos"
         subtitle="Explore the schedule and materials"
-        image="/images/heroes/program-hero.jpg"
-        height={480}
-        position="center 30%"
+        image="/images/heroes/program-hero.webp"
+        heroText="2026 NASIT"
+        heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
+        // height={480}
+        // position="center 30%"
       />
 
       <Container wide>

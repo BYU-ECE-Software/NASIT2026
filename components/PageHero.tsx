@@ -9,6 +9,8 @@ export default function PageHero({
   fit = "cover", // 'cover' | 'contain'
   position = "center", // e.g., 'center top', 'center 20%'
   overlap = false, // set true to overlap the card onto the image
+  heroText,
+  heroSubtext,
   children,
 }: {
   title: string;
@@ -18,6 +20,8 @@ export default function PageHero({
   fit?: "cover" | "contain";
   position?: string;
   overlap?: boolean;
+  heroText?: string;
+  heroSubtext?: string;
   children?: React.ReactNode;
 }) {
   const imageStyle = {
@@ -40,6 +44,23 @@ export default function PageHero({
         />
         {/* Overlay for readability */}
         <div className="absolute inset-0 bg-slate-900/40" />
+        {/* Centered text on hero image */}
+        {(heroText || heroSubtext) && (
+          <div className="absolute inset-0 flex items-center justify-center text-center">
+            <div className="text-white px-4">
+              {heroText && (
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">
+                  {heroText}
+                </h2>
+              )}
+              {heroSubtext && (
+                <p className="mt-2 text-lg md:text-xl lg:text-2xl">
+                  {heroSubtext}
+                </p>
+              )}
+            </div>
+          </div>
+        )}
       </div>
       <br />
       {/* Content container. If overlap=true, pull upward a bit. */}

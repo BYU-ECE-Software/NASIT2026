@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, ReactNode } from "react";
 import { FAQ } from "@/utils/types";
 
 export default function Accordion({ items }: { items: FAQ[] }) {
@@ -12,7 +12,7 @@ export default function Accordion({ items }: { items: FAQ[] }) {
   );
 }
 
-function AccordionItem({ question, answer }: { question: string; answer: string }) {
+function AccordionItem({ question, answer }: { question: string; answer: ReactNode }) {
   const [open, setOpen] = useState(false);
   return (
     <div className="card overflow-hidden">
@@ -23,18 +23,16 @@ function AccordionItem({ question, answer }: { question: string; answer: string 
         aria-expanded={open}
       >
         <span className="font-medium leading-tight">{question}</span>
-        <Chevron
-          className={`h-5 w-5 transition-transform ${
-            open ? "rotate-180" : "rotate-0"
-          }`}
-        />
+        <Chevron className={`h-5 w-5 transition-transform ${open ? "rotate-180" : "rotate-0"}`} />
       </button>
+
       <div
         className={`px-4 pb-4 pt-3 text-slate-700 transition-[max-height,opacity] duration-300 ease-out ${
-          open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          open ? "max-h-192 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <p className="leading-relaxed">{answer}</p>
+        {/* note: no <p> wrapper, because answer may contain multiple blocks */}
+        <div className="leading-relaxed space-y-3">{answer}</div>
       </div>
     </div>
   );
