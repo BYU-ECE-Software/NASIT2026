@@ -37,21 +37,22 @@ export const faqs: FAQ[] = [
           There are three primary options for getting from the SLC airport to BYU: car rental, ride-share services, and public transportation.
           <ol>
             <li>
-              <br>Car Rental. </br> The SLC airport has a large car rental center with many options, including major companies 
+              <b>Car Rental. </b> The SLC airport has a large car rental center with many options, including major companies 
               like Hertz, Avis, Enterprise, and Budget. 
               The drive from SLC to BYU takes approximately one hour, with the most direct route being via I-15 South.
             </li>
             <li>
-              <br>Ride-Share Services. </br> An Uber or Lyft ride from the SLC airport to BYU typically costs around $100, depending on the time of day and demand.
+              <b>Ride-Share Services. </b> An Uber or Lyft ride from the SLC airport to BYU typically costs around $100, depending on the time of day and demand.
             </li>
             <li>
-              <br>Public Transportation. </br> The Utah Transit Authority (UTA) operates a commuter train called the FrontRunner that connects the SLC airport to Provo.
+              <b>Public Transportation. </b> The Utah Transit Authority (UTA) operates a commuter train called the FrontRunner that connects the SLC airport to Provo.
               To take the FrontRunner, follow signs to ground transportation at the SLC airport and look for the TRAX Green Line. 
               Take the Green Line to the North Temple Bridge/Guadalupe station, then transfer to the FrontRunner southbound train to Provo station. 
               The total travel time is approximately 2 hours, and the cost is around $10.
             </li>
           </ol>
-      </>
+        </p>
+        </>
     ),
   },
   {
