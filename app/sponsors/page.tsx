@@ -7,8 +7,8 @@ export default function SponsorsPage() {
   return (
     <>
       <PageHero
-        title="Sponsors"
-        subtitle="We thank our sponsors for their generous support"
+        title="Thank you to our generous sponsors!"
+        // subtitle="Thank you to our generous sponsors! Click on each logo to learn more about them."
         image="/images/heroes/sponsors-hero.webp"
         heroText="2026 North American School of Information Theory"
         heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"

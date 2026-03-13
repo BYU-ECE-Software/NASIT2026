@@ -8,7 +8,7 @@ export default function OrganizersPage() {
     <>
       <PageHero
         title="Organizers"
-        subtitle="The team behind the conference"
+        // subtitle="The team behind the conference"
         image="/images/heroes/organizers-hero.webp"
         heroText="2026 North American School of Information Theory"
         heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
