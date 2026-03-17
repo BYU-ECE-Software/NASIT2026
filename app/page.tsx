@@ -57,6 +57,32 @@ export default function HomePage() {
             Registration opens soon! Stay tuned for updates on rates
             and deadlines.
           </p>
+          <table className="w-full text-center border-collapse">
+            <thead>
+              <tr>
+                <th className="border-b p-2">Category</th>
+                <th className="border-b p-2">Early Bird Rate</th>
+                <th className="border-b p-2">Regular Rate</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border-b p-2">Student</td>
+                <td className="border-b p-2">$Placeholder</td>
+                <td className="border-b p-2">$Placeholder</td>
+              </tr>
+              <tr>
+                <td className="border-b p-2">Academic</td>
+                <td className="border-b p-2">$Placeholder</td>
+                <td className="border-b p-2">$Placeholder</td>
+              </tr>
+              <tr>
+                <td className="border-b p-2">Industry</td>
+                <td className="border-b p-2">$Placeholder</td>
+                <td className="border-b p-2">$Placeholder</td>
+              </tr>
+            </tbody>
+          </table>
           <div className="text-center">
             <a
               href="https://ece.byu.edu"

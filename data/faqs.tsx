@@ -33,17 +33,20 @@ export const faqs: FAQ[] = [
     question: "How do I get from the SLC airport to BYU?",
     answer: (
       <>
-        <p>
+        {/* <p> */}
           There are three primary options for getting from the SLC airport to BYU: car rental, ride-share services, and public transportation.
           <ol>
+            <br></br>
             <li>
               <b>Car Rental. </b> The SLC airport has a large car rental center with many options, including major companies 
               like Hertz, Avis, Enterprise, and Budget. 
               The drive from SLC to BYU takes approximately one hour, with the most direct route being via I-15 South.
             </li>
+            <br></br>
             <li>
               <b>Ride-Share Services. </b> An Uber or Lyft ride from the SLC airport to BYU typically costs around $100, depending on the time of day and demand.
             </li>
+            <br></br>
             <li>
               <b>Public Transportation. </b> The Utah Transit Authority (UTA) operates a commuter train called the FrontRunner that connects the SLC airport to Provo.
               To take the FrontRunner, follow signs to ground transportation at the SLC airport and look for the TRAX Green Line. 
@@ -51,7 +54,7 @@ export const faqs: FAQ[] = [
               The total travel time is approximately 2 hours, and the cost is around $10.
             </li>
           </ol>
-        </p>
+        {/* </p> */}
         </>
     ),
   },
@@ -67,6 +70,7 @@ export const faqs: FAQ[] = [
           href="https://map.byu.edu/"
           target="_blank"
           rel="noopener noreferrer"
+          className="px-1 cursor-pointer underline"
         >
           here
         </Link>.
@@ -82,6 +86,7 @@ export const faqs: FAQ[] = [
           href="https://map.byu.edu/"
           target="_blank"
           rel="noopener noreferrer"
+          className="px-1 cursor-pointer underline"
         >
           here
         </Link>.
@@ -104,12 +109,13 @@ export const faqs: FAQ[] = [
       "What are some fun things to do in Provo during the summer?",
     answer: (
       <p>
-        Whether you're interested in outdoor activities, cultural experiences, or just exploring the local area, Provo has something for everyone.
-          For a comprehensive list of fun things to do in Provo, check out this guide from BYU's enrollment team:
+        Whether you&apos;re interested in outdoor activities, cultural experiences, or just exploring the local area, Provo has something for everyone.
+          For a comprehensive list of fun things to do in Provo, check out this guide from BYU&apos;s enrollment team:
         <Link
           href="https://enrollment.byu.edu/transfer-team/10-fun-things-to-do-in-provo"
           target="_blank"
           rel="noopener noreferrer"
+          className="px-1 cursor-pointer underline"
         >
           10 Fun Things to Do in Provo
         </Link>.
