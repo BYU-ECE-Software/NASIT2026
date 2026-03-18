@@ -54,9 +54,39 @@ export default function HomePage() {
 
         <Section title = "Registration Info" >
           <p>
-            Registration opens soon! Stay tuned for updates on rates
-            and deadlines.
+            Registration is almost open! Please see the table below for registration rates. Register by May 22, 2026 to receive the early rates.
           </p>
+          <table className="w-full text-center border-collapse">
+            <thead>
+              <tr>
+                <th className="border-b p-2">Category</th>
+                <th className="border-b p-2">Early (Before May 22) </th>
+                <th className="border-b p-2">Late (After May 22) </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border-b p-2">Student</td>
+                <td className="border-b p-2">$90</td>
+                <td className="border-b p-2">$130</td>
+              </tr>
+              <tr>
+                <td className="border-b p-2">Non-Student</td>
+                <td className="border-b p-2">$110</td>
+                <td className="border-b p-2">$150</td>
+              </tr>
+              {/* <tr>
+                <td className="border-b p-2">Academic</td>
+                <td className="border-b p-2">$Placeholder</td>
+                <td className="border-b p-2">$Placeholder</td>
+              </tr>
+              <tr>
+                <td className="border-b p-2">Industry</td>
+                <td className="border-b p-2">$Placeholder</td>
+                <td className="border-b p-2">$Placeholder</td>
+              </tr> */}
+            </tbody>
+          </table>
           <div className="text-center">
             <a
               href="https://ece.byu.edu"

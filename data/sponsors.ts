@@ -1,7 +1,7 @@
 import { Sponsor } from "@/utils/types";
 
 export const sponsors: Sponsor[] = [
-  { id: "sp1", name: "BYU Electrical and Computer Engineering", logo: "/images/sponsors/ECEAndBackground.jpg", link: "https://ece.byu.edu/" },
-  { id: "sp2", name: "The National Science Foundation", logo: "/images/sponsors/NSF.jpg", link: "https://www.nsf.gov/" },
-  { id: "sp3", name: "The IEEE Information Theory Society", logo: "/images/sponsors/InfoTheory.jpg", link: "https://www.itsoc.org/" },
+  { id: "sp1", name: "National Science Foundation", logo: "/images/sponsors/nsf_logo.png", link: "https://www.nsf.gov/" },
+  { id: "sp2", name: "IEEE Information Theory Society", logo: "/images/sponsors/itsoc_logo.png", link: "https://www.itsoc.org/" },
+  { id: "sp3", name: "BYU Electrical and Computer Engineering", logo: "/images/sponsors/byu_ece_logo.png", link: "https://ece.byu.edu/" },
 ];

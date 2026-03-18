@@ -71,19 +71,19 @@ export const organizers: Organizer[] = [
     role: "Poster Coordinator",
     image: "/images/organizers/benjamin-arnesen.jpg",
   },
-  {
-    id: "o9",
-    name: "Trevor Wai",
-    affiliation: "Brigham Young University",
-    role: "Poster Coordinator",
-    // image: "/images/organizers/willie-harrison.jpg",
-  },
-  {
-    id: "o10",
-    name: "Tyler Randall",
-    affiliation: "Brigham Young University",
-    role: "Poster Coordinator",
-    // image: "/images/organizers/willie-harrison.jpg",
-  },
+  // {
+  //   id: "o9",
+  //   name: "Trevor Wai",
+  //   affiliation: "Brigham Young University",
+  //   role: "Poster Coordinator",
+  //   // image: "/images/organizers/willie-harrison.jpg",
+  // },
+  // {
+  //   id: "o10",
+  //   name: "Tyler Randall",
+  //   affiliation: "Brigham Young University",
+  //   role: "Poster Coordinator",
+  //   // image: "/images/organizers/willie-harrison.jpg",
+  // },
   
 ];
