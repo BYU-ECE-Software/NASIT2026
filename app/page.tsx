@@ -54,7 +54,7 @@ export default function HomePage() {
 
         <Section title = "Registration Info" >
           <p>
-            Registration is almost open! Please see the table below for registration rates. Register by May 22, 2026 to receive the early rates.
+            Registration is open! Please see the table below for registration rates. Register by May 22, 2026 to receive the early rates.
           </p>
           <table className="w-full text-center border-collapse">
             <thead>
@@ -89,7 +89,7 @@ export default function HomePage() {
           </table>
           <div className="text-center">
             <a
-              href="https://ece.byu.edu"
+              href="http://commerce.cashnet.com/WEBELENG"
               className="inline-block bg-[var(--byu-royal)] text-white px-6 py-3 rounded-md hover:bg-[var(--byu-navy)] transition"
             >
               Register Now
