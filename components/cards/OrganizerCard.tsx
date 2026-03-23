@@ -12,25 +12,25 @@ export default function OrganizerCard({ person }: { person: Organizer }) {
     <article
       className={[
         "card p-4 md:p-6",
-        "flex flex-col sm:flex-row gap-4 sm:gap-6",
+        "flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-6",
         "transition-transform duration-200 ease-out",
         "hover:-translate-y-0.5 hover:shadow-lg",
         person.link ? "cursor-pointer" : "",
       ].join(" ")}
     >
       {/* Image */}
-      <div className="relative h-40 w-full sm:h-48 sm:w-[140px] overflow-hidden rounded-xl bg-slate-100 shrink-0">
+      <div className="relative mx-auto w-full max-w-[220px] aspect-[4/5] overflow-hidden rounded-xl bg-slate-100 shrink-0 sm:mx-0 sm:w-[140px] sm:max-w-none sm:aspect-[7/8]">
         <Image
           src={imageSrc}
           alt={person.name}
           fill
-          sizes="(max-width: 640px) 100vw, 140px"
-          className="object-cover"
+          sizes="(max-width: 640px) 220px, 140px"
+          className="object-cover object-top"
         />
       </div>
 
       {/* Content */}
-      <div className="flex flex-col justify-start min-w-0">
+      <div className="flex min-w-0 flex-col text-center sm:text-left">
         <h3 className="text-lg font-semibold leading-tight">
           {person.name}
         </h3>
