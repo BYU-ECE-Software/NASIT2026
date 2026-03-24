@@ -96,6 +96,11 @@ export default function HomePage() {
             </a>
           </div>
         </Section>
+        <Section title="NASIT Lodging Accommodations">
+          <p>
+            Unfortunately, on-campus lodging is not available for NASIT this year.  People are free to secure their own lodging in hotels and AirBnBs nearby.  A BYU student, Max Rawlings (rawling9@student.byu.edu), is a resource to you if you need/want help finding roommates for the week to keep costs down.  Please reach out to Max with the details of what you are looking for (e.g., number of roommates you'd be willing to stay with, gender preferences, etc.).  Max will not make accommodations for you, but he will connect you to like-minded people.
+          </p>
+        </Section>
       </Container>
       <br></br>
     </>
