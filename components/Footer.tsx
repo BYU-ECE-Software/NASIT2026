@@ -75,24 +75,27 @@ const FooterBar = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-white"
+              aria-label='Visit our Facebook page'
             >
-              <FaFacebook />
+              <FaFacebook aria-hidden="true"/>
             </a>
             <a
               href="https://twitter.com/BYUECE"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-white"
+              aria-label='Visit our Twitter page'
             >
-              <FaTwitter />
+              <FaTwitter aria-hidden="true"/>
             </a>
             <a
               href="https://www.linkedin.com/school/byu/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-white"
+              aria-label='Visit our LinkedIn page'
             >
-              <FaLinkedin />
+              <FaLinkedin aria-hidden="true"/>
             </a>
           </div>
           <br></br>
