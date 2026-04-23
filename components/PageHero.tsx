@@ -26,6 +26,7 @@ export default function PageHero({
 }) {
   const imageStyle = {
     height: typeof height === "number" ? `${height}px` : height,
+    backgroundColor: "black", //This is for accessibility or slow connections
   } as React.CSSProperties;
 
   return (

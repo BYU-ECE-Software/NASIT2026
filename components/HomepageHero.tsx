@@ -26,6 +26,7 @@ export default function HomepageHero({
 }) {
   const imageStyle = {
     height: typeof height === "number" ? `${height}px` : height,
+    backgroundColor: "black"
   } as React.CSSProperties;
 
   return (
