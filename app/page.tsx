@@ -54,14 +54,14 @@ export default function HomePage() {
 
         <Section title = "Registration Info" >
           <p>
-            Registration is open! Please see the table below for registration rates. Register by May 22, 2026 to receive the early rates.
+            Registration is open! Please see the table below for registration rates. Register by June 12, 2026 to receive the early rates.
           </p>
           <table className="w-full text-center border-collapse">
             <thead>
               <tr>
                 <th className="border-b p-2">Category</th>
-                <th className="border-b p-2">Early (Before May 22) </th>
-                <th className="border-b p-2">Late (After May 22) </th>
+                <th className="border-b p-2">Early (Before June 12) </th>
+                <th className="border-b p-2">Late (After June 12) </th>
               </tr>
             </thead>
             <tbody>
