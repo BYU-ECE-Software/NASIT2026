@@ -55,14 +55,18 @@ export default function Calendar({
       >
         {/* Time gutter */}
         <div className="relative">
+          {/* Spacer to match total grid height */}
+          <div style={{ height: rows * 40 }} />
+
           {Array.from({ length: rows + 1 }).map((_, i) => {
             const t = addMinutes(start, i * stepMinutes);
             return (
               <div
                 key={i}
-                className="h-10 -mt-[1px] text-[11px] text-slate-500 flex items-start justify-end pr-2"
+                className="absolute right-2 text-[11px] text-slate-500 leading-none"
+                style={{ top: i * 40 - 6 }} // -6px to vertically center the text on the line
               >
-                <span className="translate-y-[-7px]">{t}</span>
+                {t}
               </div>
             );
           })}
@@ -86,12 +90,18 @@ export default function Calendar({
                     key={e.id}
                     className={clsx(
                       "absolute left-2 right-2 rounded-lg border text-xs shadow-sm",
-                      e.variant === "Short Tutorial" && "bg-blue-50 border-blue-200",
-                      e.variant === "Long Tutorial" && "bg-amber-50 border-amber-200",
-                      (!e.variant || e.variant === "Lunch" || e.variant === "Breakfast" || e.variant === "Lunch and Posters") &&
+                      e.variant === "Short Tutorial" &&
+                        "bg-blue-50 border-blue-200",
+                      e.variant === "Long Tutorial" &&
+                        "bg-amber-50 border-amber-200",
+                      (!e.variant ||
+                        e.variant === "Lunch" ||
+                        e.variant === "Breakfast" ||
+                        e.variant === "Lunch and Posters") &&
                         "bg-emerald-50 border-emerald-200",
-                      e.variant === "Excursion" && "bg-purple-50 border-purple-200",
-                      e.variant === "Break" && "bg-slate-50 border-slate-200"
+                      e.variant === "Excursion" &&
+                        "bg-purple-50 border-purple-200",
+                      e.variant === "Break" && "bg-slate-50 border-slate-200",
                     )}
                     style={{ top, height }}
                     title={`${e.title} — ${e.start}–${e.end}`}
@@ -122,10 +132,12 @@ export default function Calendar({
           <i className="h-3 w-3 rounded bg-emerald-200 inline-block" /> Meal
         </span>
         <span className="inline-flex items-center gap-2">
-          <i className="h-3 w-3 rounded bg-amber-200 inline-block" /> Long Tutorial
+          <i className="h-3 w-3 rounded bg-amber-200 inline-block" /> Long
+          Tutorial
         </span>
         <span className="inline-flex items-center gap-2">
-          <i className="h-3 w-3 rounded bg-blue-200 inline-block" /> Short Tutorial
+          <i className="h-3 w-3 rounded bg-blue-200 inline-block" /> Short
+          Tutorial
         </span>
       </div>
     </div>
