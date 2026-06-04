@@ -53,7 +53,7 @@ export const presentations: Presentation[] = [
   },
   {
     id: "p6",
-    title: "Optical List Decoding",
+    title: "Optimal List Decoding",
     speakers: ["Venkat Guruswami"],
     // abstract:
     //   "n overview of systems research enabling rapid scientific discovery.",

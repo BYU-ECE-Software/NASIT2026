@@ -167,7 +167,7 @@ export const schedule: ScheduleEvent[] = [
     dayIndex: 1,
     start: "15:30",
     end: "17:00",
-    title: "Optical List Decoding",
+    title: "Optimal List Decoding",
     speakers: ["Venkat Guruswami"],
     location: "Engineering Building Event Space (206)",
     variant: "Short Tutorial",
