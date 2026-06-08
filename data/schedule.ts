@@ -247,7 +247,7 @@ export const schedule: ScheduleEvent[] = [
     dayIndex: 3,
     start: "08:30",
     end: "10:00",
-    title: "Approximate Message Passing Algorithms",
+    title: "Computational-Statistical Gaps in High-dimensional Inference: Low-degree polynomials, AMP, and Their Connections",
     speakers: ["Cynthia Rush"],
     location: "Engineering Building Event Space (206)",
     variant: "Short Tutorial",

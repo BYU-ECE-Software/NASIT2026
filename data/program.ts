@@ -73,10 +73,10 @@ export const presentations: Presentation[] = [
   },
   {
     id: "p8",
-    title: "Approximate Message Passing Algorithms",
+    title: "Computational-Statistical Gaps in High-dimensional Inference: Low-degree polynomials, AMP, and Their Connections",
     speakers: ["Cynthia Rush"],
-    // abstract:
-    //   "n overview of systems research enabling rapid scientific discovery.",
+    abstract:
+      "When does high-dimensional data contain enough information to recover a hidden signal, and when can that information be extracted efficiently? These two questions often have different answers. This lecture surveys the computational–statistical gap phenomenon in high-dimensional inference, with an emphasis on low-degree polynomial methods and approximate message passing. We will start with planted clique as a concrete example of a gap between statistical possibility and efficient computation, where exhaustive search succeeds at logarithmic clique size but known polynomial-time algorithms require clique size on the order of \sqrt n. We then develop the low-degree method, first for detection through the low-degree likelihood ratio and then for estimation through low-degree MMSE and overlap. The second half of the lecture centers on spiked Wigner / rank-one matrix estimation, a model where low-degree estimation, PCA, Bayes estimation, and AMP can be compared cleanly. We will introduce AMP, explain the Onsager correction and state evolution, and discuss how AMP gives an algorithmic threshold.  We conclude with the low-degree–AMP equivalence in rank-one matrix estimation, explaining how AMP can match the optimal constant-degree polynomial estimator and thereby provide a candidate computational threshold.",
     time: "Thursday — 8:30-10:00",
     // slides: "https://example.com/slides/p1.pdf",
     // video: "https://example.com/videos/p1",
