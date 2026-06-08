@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Presentation } from "@/utils/types";
+import ReactMarkdown from "react-markdown";
 
 export default function PresentationList({ items }: { items: Presentation[] }) {
   return (
@@ -27,7 +28,9 @@ export default function PresentationList({ items }: { items: Presentation[] }) {
                 })}
               </p>
               {p.abstract && (
-                <p className="mt-3 text-slate-700">{p.abstract}</p>
+                <div className="mt-3 text-slate-700 prose prose-sm max-w-none">
+                  <ReactMarkdown>{p.abstract}</ReactMarkdown>
+                </div>
               )}
             </div>
             <div className="flex gap-3 text-sm">
