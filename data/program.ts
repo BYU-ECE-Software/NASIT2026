@@ -36,7 +36,7 @@ export const presentations: Presentation[] = [
     title: "Quantum Low-Density Parity-Check Codes: Constructions and Decoders",
     speakers: ["Henry Pfister"],
     abstract:
-      "Spurred by recent advances in quantum science and engineering, interest in quantum information theory and coding has been increasing at a rapid pace.  Much of this interest is driven by the promise of quantum computing and its potential to solve key problems much faster than classical computers. One promising technology for fault-tolerant quantum computing is error-correction based on quantum low-density parity-check (QLDPC) codes. This talk gives an overview of QLDPC code constructions and decoders with some emphasis message-passing decoding. In particular, it will discuss why code degeneracy causes convergence issues and how decoder modifications, such as guided decimation, can improve performance. ",
+    "Spurred by recent advances in quantum science and engineering, interest in quantum information theory and coding has been increasing at a rapid pace.  Much of this interest is driven by the promise of quantum computing and its potential to solve key problems much faster than classical computers. One promising technology for fault-tolerant quantum computing is error-correction based on quantum low-density parity-check (QLDPC) codes. This talk gives an overview of QLDPC code constructions and decoders with some emphasis message-passing decoding. In particular, it will discuss why code degeneracy causes convergence issues and how decoder modifications, such as guided decimation, can improve performance. ",
     time: "Tuesday — 8:30-10:00",
     // slides: "https://example.com/slides/p1.pdf",
     // video: "https://example.com/videos/p1",
@@ -52,25 +52,34 @@ export const presentations: Presentation[] = [
     // video: "https://example.com/videos/p1",
   },
   {
-    id: "p6",
-    title: "Optimal List Decoding",
-    speakers: ["Venkat Guruswami"],
-    // abstract:
-    //   "n overview of systems research enabling rapid scientific discovery.",
-    time: "Tuesday — 3:30-5:00",
-    // slides: "https://example.com/slides/p1.pdf",
-    // video: "https://example.com/videos/p1",
-  },
-  {
-    id: "p7",
-    title: "Semantic Coding",
-    speakers: ["Aylin Yener"],
-    // abstract:
-    //   "n overview of systems research enabling rapid scientific discovery.",
+    id: "p11",
+    title: "Long Tutorial",
+    speakers: ["Mohammad Maddah-Ali"],
+    abstract: "",
     time: "Wednesday — 8:30-10:00 and 10:30-12:00",
     // slides: "https://example.com/slides/p1.pdf",
     // video: "https://example.com/videos/p1",
   },
+  // {
+    //   id: "p6",
+  //   title: "Optimal List Decoding",
+  //   speakers: ["Venkat Guruswami"],
+  //   // abstract:
+  //   //   "n overview of systems research enabling rapid scientific discovery.",
+  //   time: "Tuesday — 3:30-5:00",
+  //   // slides: "https://example.com/slides/p1.pdf",
+  //   // video: "https://example.com/videos/p1",
+  // },
+  // {
+  //   id: "p7",
+  //   title: "Semantic Coding",
+  //   speakers: ["Aylin Yener"],
+  //   // abstract:
+  //   //   "n overview of systems research enabling rapid scientific discovery.",
+  //   time: "Wednesday — 8:30-10:00 and 10:30-12:00",
+  //   // slides: "https://example.com/slides/p1.pdf",
+  //   // video: "https://example.com/videos/p1",
+  // },
   {
     id: "p8",
     title: "Computational-Statistical Gaps in High-dimensional Inference: Low-degree polynomials, AMP, and Their Connections",
@@ -98,16 +107,6 @@ export const presentations: Presentation[] = [
     // abstract:
     //   "n overview of systems research enabling rapid scientific discovery.",
     time: "Thursday — 3:30-5:00",
-    // slides: "https://example.com/slides/p1.pdf",
-    // video: "https://example.com/videos/p1",
-  },
-  {
-    id: "p11",
-    title: "Improving Generalization, Robustness, and Reliability in Machine Learning:  a Coding-Theoretic Approach",
-    speakers: ["Mohammad Maddah-Ali"],
-    abstract:
-      "In this tutorial, we extend the role of coding and decoding beyond their classical use in reliable communication and storage, positioning them as fundamental tools for improving generalization, adversarial robustness, and system-level reliability in machine learning.  This shift is enabled by rethinking code design through the lens of learning theory rather than classical algebraic coding, making coding a native component of modern ML architectures.\n\n \n\n We then show how this framework advances the state of the art in three domains: \n\n - **Generalization:** The coding/decoding framework introduces an auxiliary data path alongside the original one. We prove that the inconsistency between these paths is proportional to higher-order gradients of the model, enabling this inconsistency to act as a smoothness regularizer during training. Perhaps surprisingly, this approach works  for both supervised and unsupervised learning tasks. In particular, we demonstrate improvements in contrastive learning, where alternative mechanisms for encouraging smoothness remain limited.\n\n - **Adversarial Robustness:** We prove that data permutations in the process of  encoding and decoding can provide gradient obfuscation, without sacrificing predictive performance, thereby improving robustness to adversarial perturbations at inference time. Using this approach, we improve robustness and surpass leading methods on adversarial defense benchmarks. \n\n **Reliability:** In distributed machine learning settings, the framework improves resilience against stragglers and adversarial servers. We provide formal guarantees that bound approximation error as a function of the number of total and faulty servers, while outperforming the current state of the art.",
-    time: "Friday — 8:30-10:00",
     // slides: "https://example.com/slides/p1.pdf",
     // video: "https://example.com/videos/p1",
   },
