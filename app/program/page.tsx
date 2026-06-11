@@ -26,7 +26,7 @@ export default function ProgramPage() {
             <Calendar
               days={["Mon", "Tue", "Wed", "Thu", "Fri"]}
               start="07:30"
-              end="20:00"
+              end="20:30"
               stepMinutes={30}
               events={schedule}
             />

@@ -52,6 +52,16 @@ export const presentations: Presentation[] = [
     // video: "https://example.com/videos/p1",
   },
   {
+      id: "p6",
+    title: "Short Tutorial",
+    speakers: ["David Mitchell"],
+    // abstract:
+    //   "n overview of systems research enabling rapid scientific discovery.",
+    time: "Tuesday — 3:30-5:00",
+    // slides: "https://example.com/slides/p1.pdf",
+    // video: "https://example.com/videos/p1",
+  },
+  {
     id: "p11",
     title: "Long Tutorial",
     speakers: ["Mohammad Maddah-Ali"],
@@ -60,16 +70,6 @@ export const presentations: Presentation[] = [
     // slides: "https://example.com/slides/p1.pdf",
     // video: "https://example.com/videos/p1",
   },
-  // {
-    //   id: "p6",
-  //   title: "Optimal List Decoding",
-  //   speakers: ["Venkat Guruswami"],
-  //   // abstract:
-  //   //   "n overview of systems research enabling rapid scientific discovery.",
-  //   time: "Tuesday — 3:30-5:00",
-  //   // slides: "https://example.com/slides/p1.pdf",
-  //   // video: "https://example.com/videos/p1",
-  // },
   // {
   //   id: "p7",
   //   title: "Semantic Coding",
