@@ -102,11 +102,11 @@ export const presentations: Presentation[] = [
   },
   {
     id: "p10",
-    title: "Short Tutorial",
+    title: "Long Tutorial",
     speakers: ["Matthieu Bloch"],
     // abstract:
     //   "n overview of systems research enabling rapid scientific discovery.",
-    time: "Thursday — 3:30-5:00",
+    time: "Thursday — 3:30-5:00 and Friday — 8:30-10:00",
     // slides: "https://example.com/slides/p1.pdf",
     // video: "https://example.com/videos/p1",
   },
