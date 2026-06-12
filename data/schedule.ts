@@ -85,11 +85,11 @@ export const schedule: ScheduleEvent[] = [
   {
     id: "e36",
     dayIndex: 0,
-    start: "18:30",
+    start: "18:00",
     end: "20:00",
     title: "Welcome Reception Dinner",
     // speakers: ["Roman Vish"],
-    location: "Cannon Center",
+    location: "Engineering Building Event Space (206)",
     variant: "Lunch",
   },
   {
@@ -319,7 +319,7 @@ export const schedule: ScheduleEvent[] = [
     end: "20:30",
     title: "Banquet",
     // speakers: ["Roman Vish", "Willie Harrison"],
-    location: "Wilkinson Center",
+    location: "Wilkinson Center Rooms 3250 & 3252",
     variant: "Lunch",
   },
   {
