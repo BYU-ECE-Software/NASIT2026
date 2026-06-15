@@ -9,8 +9,18 @@ export const schedule: ScheduleEvent[] = [
     end: "08:30",
     title: "Breakfast",
     // speakers: ["Dr. Alex Johnson"],
-    location: "Breakfast Venue",
+    location: "Engineering Building Event Space (206)",
     variant: "Breakfast",
+  },
+  {
+    id: "e121",
+    dayIndex: 0,
+    start: "08:10",
+    end: "08:30",
+    title: "Welcome",
+    speakers: ["Dr. Willie Harrison"],
+    location: "Engineering Building Event Space (206)",
+    variant: "Short Tutorial",
   },
   {
     id: "e1",
@@ -99,7 +109,7 @@ export const schedule: ScheduleEvent[] = [
     end: "08:30",
     title: "Breakfast",
     // speakers: ["Q. Zhang"],
-    location: "Breakfast Venue",
+    location: "Engineering Building Event Space (206)",
     variant: "Breakfast",
   },
   {
@@ -179,7 +189,7 @@ export const schedule: ScheduleEvent[] = [
     end: "08:30",
     title: "Breakfast",
     // speakers: ["Q. Zhang"],
-    location: "Breakfast Venue",
+    location: "Engineering Building Event Space (206)",
     variant: "Breakfast",
   },
   {
@@ -239,7 +249,7 @@ export const schedule: ScheduleEvent[] = [
     end: "08:30",
     title: "Breakfast",
     // speakers: ["Q. Zhang"],
-    location: "Breakfast Venue",
+    location: "Engineering Building Event Space (206)",
     variant: "Breakfast",
   },
   {
@@ -329,7 +339,7 @@ export const schedule: ScheduleEvent[] = [
     end: "08:30",
     title: "Breakfast",
     // speakers: ["Q. Zhang"],
-    location: "Breakfast Venue",
+    location: "Engineering Building Event Space (206)",
     variant: "Breakfast",
   },
   {
