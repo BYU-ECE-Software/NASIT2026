@@ -6,7 +6,7 @@ export const schedule: ScheduleEvent[] = [
     id: "e0",
     dayIndex: 0,
     start: "07:30",
-    end: "08:30",
+    end: "08:10",
     title: "Breakfast",
     // speakers: ["Dr. Alex Johnson"],
     location: "Engineering Building Event Space (206)",
