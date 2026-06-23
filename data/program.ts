@@ -44,7 +44,7 @@ export const presentations: Presentation[] = [
   {
     id: "p5",
     title: "Theory and Practice of Diffusion Models",
-    speakers: ["Lalitha Sanka"],
+    speakers: ["Lalitha Sankar"],
     // abstract:
     //   "n overview of systems research enabling rapid scientific discovery.",
     time: "Tuesday — 10:30-12:00 and 1:30-3:00",
