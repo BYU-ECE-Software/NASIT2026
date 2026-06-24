@@ -92,7 +92,7 @@ export const presentations: Presentation[] = [
   },
   {
     id: "p9",
-    title: "Long Tutorial",
+    title: "From Conformal Prediction to Verification and Uncertainty Quantification in Generative AI",
     speakers: ["Hamed Hassani"],
     // abstract:
     //   "n overview of systems research enabling rapid scientific discovery.",
