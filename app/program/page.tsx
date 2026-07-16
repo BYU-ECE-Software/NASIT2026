@@ -9,7 +9,7 @@ export default function ProgramPage() {
   return (
     <>
       <PageHero
-        title="Program, Abstracts, Slides & Videos"
+        title="Program, Abstracts, & Slides"
         subtitle="Explore the schedule and materials"
         image="/images/heroes/program-hero.webp"
         heroText="2026 North American School of Information Theory"

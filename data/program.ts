@@ -18,7 +18,8 @@ export const presentations: Presentation[] = [
     // abstract:
     //   "n overview of systems research enabling rapid scientific discovery.",
     time: "Monday — 10:30-12:00 and 1:30-3:00",
-    // slides: "https://example.com/slides/p1.pdf",
+    slides: "/presentations/chen_rdp.pdf",
+
     // video: "https://example.com/videos/p1",
   },
   {
@@ -28,7 +29,7 @@ export const presentations: Presentation[] = [
     // abstract:
     //   "n overview of systems research enabling rapid scientific discovery.",
     time: "Monday — 3:30-5:00",
-    // slides: "https://example.com/slides/p1.pdf",
+    slides: "/presentations/wesel_communicating_short_messages.pdf",
     // video: "https://example.com/videos/p1",
   },
   {
@@ -117,7 +118,7 @@ export const presentations: Presentation[] = [
     // abstract:
     //   "n overview of systems research enabling rapid scientific discovery.",
     time: "Friday — 10:30-12:00",
-    // slides: "https://example.com/slides/p1.pdf",
+    slides: "/presentations/veeravalli_qcd.pdf",
     // video: "https://example.com/videos/p1",
   },
   

@@ -88,12 +88,13 @@ export default function HomePage() {
             </tbody>
           </table>
           <div className="text-center">
-            <a
+            {/* <a
               href="http://commerce.cashnet.com/WEBELENG"
               className="inline-block bg-[var(--byu-royal)] text-white px-6 py-3 rounded-md hover:bg-[var(--byu-navy)] transition"
             >
               Register Now
-            </a>
+            </a> */}
+            <strong> Registration is now closed.</strong>
           </div>
         </Section>
         <Section title="NASIT Lodging Accommodations">

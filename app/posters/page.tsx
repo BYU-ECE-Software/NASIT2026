@@ -3,6 +3,25 @@ import PageHero from "@/components/PageHero";
 import PosterCard from "@/components/cards/PosterCard";
 import { posters } from "@/data/posters";
 
+function StyledList() {
+  const features = [
+    'The student poster session will be held on Tuesday immediately following lunch. This is a fantastic opportunity to share your ongoing work and engage directly with leading experts and peers from across North America. Please note that posters are not peer-reviewed, and you are welcome to present on previously published work. Even if you don’t have anything novel to present, feel free to present a poster on an idea, a concept you find fascinating, or anything else related to information theory.',
+        'Please indicate your interest in presenting a poster when you register. If you have already registered but would still like to present a poster, please email Jamison Ebert at jrebert@byu.edu.',
+        'Please arrange to print your poster before you arrive, as we do not have the capabilities to print all posters during the school. We will provide all materials necessary to mount and display your posters (e.g. hard backing, push pins, etc).',
+        'We recommend a poster size of 30" x 40"'
+  ];
+
+  return (
+    <ol className="list-decimal list-inside space-y-2">
+      {features.map((feature, index) => (
+        <li key={index} className="">
+          {feature}
+        </li>
+      ))}
+    </ol>
+  );
+}
+
 export default function PostersPage() {
   return (
     <>
@@ -29,18 +48,10 @@ export default function PostersPage() {
           interconnected community.
         </p>
         <br></br>
-        <p>
-          Poster results are not peer-reviewed, and previously published work is
-          welcome.
-        </p>
         <h2 className="text-2xl font-semibold text-center mt-8 mb-4">
-          Abstract Submission
+          Poster Session Details
         </h2>
-        <p>Details Coming Soon!</p>
-        <h2 className="text-2xl font-semibold text-center mt-8 mb-4">
-          Poster Format
-        </h2>
-        <p>Details Coming soon!</p>
+        <StyledList/>
         <br></br>
       </Container>
       <Container wide>
