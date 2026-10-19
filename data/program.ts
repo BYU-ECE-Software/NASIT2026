@@ -39,7 +39,7 @@ export const presentations: Presentation[] = [
     abstract:
     "Spurred by recent advances in quantum science and engineering, interest in quantum information theory and coding has been increasing at a rapid pace.  Much of this interest is driven by the promise of quantum computing and its potential to solve key problems much faster than classical computers. One promising technology for fault-tolerant quantum computing is error-correction based on quantum low-density parity-check (QLDPC) codes. This talk gives an overview of QLDPC code constructions and decoders with some emphasis message-passing decoding. In particular, it will discuss why code degeneracy causes convergence issues and how decoder modifications, such as guided decimation, can improve performance. ",
     time: "Tuesday — 8:30-10:00",
-    // slides: "https://example.com/slides/p1.pdf",
+    slides: "https://pfister.ee.duke.edu/talks/nasit26.pdf",
     // video: "https://example.com/videos/p1",
   },
   {
