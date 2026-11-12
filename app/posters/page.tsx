@@ -1,7 +1,9 @@
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
+import PhotoShowcase from "@/components/PhotoShowcase";
 import PosterCard from "@/components/cards/PosterCard";
 import { posters } from "@/data/posters";
+import { pagePhotoGroups } from "@/data/gallery";
 
 function StyledList() {
   const features = [
@@ -48,6 +50,7 @@ export default function PostersPage() {
           interconnected community.
         </p>
         <br></br>
+        <PhotoShowcase title="Poster Session Moments" photos={pagePhotoGroups.posters} />
         <h2 className="text-2xl font-semibold text-center mt-8 mb-4">
           Poster Session Details
         </h2>

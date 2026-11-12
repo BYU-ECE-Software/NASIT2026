@@ -1,9 +1,11 @@
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
+import PhotoShowcase from "@/components/PhotoShowcase";
 import PresentationList from "@/components/lists/PresentationList";
 import Calendar from "@/components/Calendar";
 import { presentations } from "@/data/program";
 import { schedule } from "@/data/schedule";
+import { pagePhotoGroups } from "@/data/gallery";
 
 export default function ProgramPage() {
   return (
@@ -19,6 +21,7 @@ export default function ProgramPage() {
       />
 
       <Container wide>
+        <PhotoShowcase title="Program Highlights" photos={pagePhotoGroups.program} />
         <div className="space-y-8">
           {/* Calendar view (Mon–Fri) */}
           <section>

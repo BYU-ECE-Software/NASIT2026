@@ -1,7 +1,9 @@
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
+import PhotoShowcase from "@/components/PhotoShowcase";
 import OrganizerCard from "@/components/cards/OrganizerCard";
 import { organizers } from "@/data/organizers";
+import { pagePhotoGroups } from "@/data/gallery";
 
 export default function OrganizersPage() {
   return (
@@ -15,6 +17,7 @@ export default function OrganizersPage() {
       />
 
       <Container wide>
+        <PhotoShowcase title="Behind the Scenes" photos={pagePhotoGroups.organizers} />
         <div className="grid gap-4">
           {organizers.map((p, i) => {
             const prev = organizers[i - 1];

@@ -1,6 +1,8 @@
 import Container from "@/components/Container";
 import HomepageHero from "@/components/HomepageHero";
+import PhotoShowcase from "@/components/PhotoShowcase";
 import Section from "@/components/Section";
+import { pagePhotoGroups } from "@/data/gallery";
 
 export const metadata = {
   title: "NASIT 2026 Conference",
@@ -19,7 +21,8 @@ export default function HomePage() {
         heroSubtext="June 22-26, 2026 | Brigham Young University, Provo, UT"
       />
       <Container wide>
-        <Section title="">
+        <Section title="Thank you for an incredible conference! We couldn't have done it without you!">
+
           <p>
             The 2026 North American School of Information Theory (NASIT) will be held from <b> Monday, June 22nd to Friday, June 26th </b> at <b> Brigham Young University in Provo, UT, USA. </b> The school brings together graduate students and postdoctoral researchers for an immersive introduction to emerging research directions in information theory and its applications.
           </p>
@@ -33,6 +36,7 @@ export default function HomePage() {
             All academic events will be held in the 2nd floor event space of the BYU Engineering Building in Provo, UT. The school will also feature an exciting excursion into the Wasatch mountains. Stay tuned for more information on speakers and schedule!
           </p>
         </Section>
+        <PhotoShowcase title="NASIT 2026 Highlights" photos={pagePhotoGroups.homepage} />
 
         {/* Jamison Edit */}
         {/* <Section title="Key Info">
